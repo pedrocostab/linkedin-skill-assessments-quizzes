@@ -186,8 +186,8 @@
 
 #### Q11. How do you store several paragraphs of text as a string in JSON?
 
-- [x] Escape all whitespaces expect space characters.
-- [ ] Escape line breaks.
+- [ ] Escape all whitespaces expect space characters.
+- [x] Escape line breaks.
 - [ ] Escape paragraphs.
 - [ ] Remove all whitespaces
 
@@ -264,7 +264,7 @@
 }
 ```
 
-- [ ] C
+- [x] C
 
 ```json
 {
@@ -284,7 +284,7 @@
 }
 ```
 
-- [x] E
+- [ ] E
 
 ```json
 {
@@ -296,16 +296,16 @@
 
 #### Q19. Can trailing commas be used in objects and arrays?
 
-- [ ] yes
+- [x] yes
 - [ ] only if there is more than one item
-- [x] no
+- [ ] no
 - [ ] only when arrays and objects contain more than 10 items
 
 #### Q20. Which whitespace characters should be escaped within a string?
 
 - [ ] All whitespace is allowed.
-- [ ] double quotes, slashes new lines, and carriage returns
-- [x] new lines and carriage returns only
+- [x] double quotes, slashes new lines, and carriage returns
+- [ ] new lines and carriage returns only
 - [ ] double quotes only
 
 #### Q21. Which is supported by YAML but not supported by JSON?
@@ -576,8 +576,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 #### Q43. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the original value?
 
 - [ ] "UPC": \043875
-- [ ] UPC: "043875"
-- [x] "UPC": 043875
+- [x] UPC: "043875"
+- [ ] "UPC": 043875
 - [ ] UPC: '043875'
 
 #### Q44. Which data format is a JSON schema written in?
@@ -769,10 +769,10 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q67. Can you assume the order of keys in an object?
 
-- [x] No, but you can sort the keys with `JSON.sort()`.
+- [ ] No, but you can sort the keys with `JSON.sort()`.
 - [ ] Yes, object keys are always ordered alphabetically.
 - [ ] Yes, but only when the object is first parsed.
-- [ ] No, you can never assume object keys will be in order.
+- [x] No, you can never assume object keys will be in order.
 
 #### Q68. With what character should object keys be enclosed?
 
